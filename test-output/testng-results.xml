@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57171" started-at="2020-12-09T04:46:56Z" finished-at="2020-12-09T04:47:53Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.TestRunner@43a25848]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="57171" started-at="2020-12-09T04:46:56Z" finished-at="2020-12-09T04:47:53Z">
+      <class name="Runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runners.TestRunner@43a25848]" name="setUpClass" is-config="true" duration-ms="206" started-at="2020-12-09T10:16:56Z" finished-at="2020-12-09T10:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.TestRunner@43a25848]" name="runScenario" duration-ms="19638" started-at="2020-12-09T10:16:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccesful login on entering valid Email and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.TestRunner@43a25848]" name="runScenario" duration-ms="18681" started-at="2020-12-09T10:17:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccesful login on entering invalid email and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runners.TestRunner@43a25848]" name="runScenario" duration-ms="18526" started-at="2020-12-09T10:17:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-12-09T10:17:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccesful login on entering invalid email and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners.TestRunner@43a25848]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2020-12-09T10:17:53Z" finished-at="2020-12-09T10:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
